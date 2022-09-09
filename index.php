@@ -8,6 +8,13 @@
 <body>
 
 <?php
+    /**
+     * Requirement: 
+     * In Php please prepare a simple solution that prints out numbers 1 to 100 
+     * but for every number divisible by 3 it prints ABCD, 
+     * and every number divisible by 5 it prints EFGH 
+     * and for every number divisible by 10 it prints ABCDEFGH.
+     */
     for ($i = 1; $i <= 100; $i++) {
         
         if ($i % 3 != 0 && $i % 5 != 0 && $i % 10 != 0) {
